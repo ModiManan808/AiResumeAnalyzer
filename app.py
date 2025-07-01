@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Get your free API key from https://console.groq.com/
-GROQ_API_KEY = "Your api Key"  # Replace with your actual API key
+GROQ_API_KEY = "gsk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" # Replace with your actual API key
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 def extract_resume(file_path):
