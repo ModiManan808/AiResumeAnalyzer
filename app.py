@@ -81,6 +81,7 @@ def analyze():
             
         # Save uploaded file
         file_path = os.path.join("uploads", file.filename)
+        os.makedirs("uploads", exist_ok=True)  # ✅ Ensure directory exists
         file.save(file_path)
 
         # Extract text from PDF
