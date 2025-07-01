@@ -16,7 +16,7 @@ const errorMessage = document.getElementById('errorMessage');
 const toast = document.getElementById('toast');
 
 // Configuration
-const API_BASE_URL = 'http://127.0.0.1:5000';
+const API_BASE_URL = 'https://airesumeanalyzer-iaaq.onrender.com';
 const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB
 const ALLOWED_TYPES = ['application/pdf'];
 
