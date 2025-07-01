@@ -10,6 +10,7 @@ CORS(app)
 
 # Get your free API key from https://console.groq.com/
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 def extract_resume(file_path):
     return extract_text(file_path)
